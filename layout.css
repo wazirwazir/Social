@@ -1,0 +1,89 @@
+body {
+    margin: auto 0;
+}
+.zone {
+    width: auto;
+    height: auto;
+    
+    background-color: burlywood;   
+}
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #343477;
+    box-shadow: 0 2px 10px 1px #09093B;
+}
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: o.5em;
+        padding: 0;
+    }
+}
+.contact {
+    margin-left: auto;
+}
+li {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: white
+}
+.cover {
+    background-color: #565695;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    padding-top: 15px;
+}
+.logo_name {
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+	font-weight: bolder;
+	font-size: 25px;
+    color: #e5e5f3;
+		
+    
+}
+.butterfly_logo {
+    display: flex;
+}
+.project {
+    background-color: #1A1A59;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-items: center;
+    padding: 20px;
+}
+.fly {
+    border-radius: 15px;
+    background-color: #565695;
+    padding: 15px
+}
+img {
+			width: 150px;
+			border-radius: 15px;
+			display: block;
+}
+img:hover {
+    width: 160px;
+    transition: 0.5s;
+}
+figcaption {
+    text-align: center;
+}
+.footer {
+    background-color: #343477;
+    text-align: center;
+    box-shadow: 0 -2px 10px 1px #09093B;
+}
+/*GRID*/
